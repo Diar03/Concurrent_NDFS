@@ -17,11 +17,12 @@ public class NNDFS implements NDFS {
      * Constructs an NDFS object using the specified Promela file.
      *
      * @param promelaFile
+     * @param nrWorkers
      *            the Promela file.
      * @throws FileNotFoundException
      *             is thrown in case the file could not be read.
      */
-    public NNDFS(File promelaFile) throws FileNotFoundException {
+    public NNDFS(File promelaFile, int nrWorkers) throws FileNotFoundException {
 
         this.worker = new Worker(promelaFile);
     }

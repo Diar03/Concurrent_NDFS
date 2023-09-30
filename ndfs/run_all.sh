@@ -29,7 +29,7 @@ for filename in ./input/*; do
     output=$(./bin/ndfs.sh "$filename" "$model" "$numthreads")
     # Extract the relevant values from the output
     input_file=$(echo "$output" | grep -o "Graph .*" | cut -d ' ' -f 2)
-    value=$(echo "$output" | grep -o "seq took .*" | cut -d ' ' -f 3)
+    value=$(echo "$output" | grep -o "took .*" | cut -d ' ' -f 2)
     # Print the values in a table format with borders
     printf "| %-30s | %-20s | %-20s | %-20s ms|\n" "$input_file" "$model" "$numthreads" "$value"
     echo "$table_line"

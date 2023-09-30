@@ -72,13 +72,13 @@ public class Worker {
         }
     }
 
-    private void nndfs(State s) throws CycleFoundException {
+    private void mc_ndfs(State s) throws CycleFoundException {
         dfsBlue(s);
     }
 
     public void run() {
         try {
-            nndfs(graph.getInitialState());
+            mc_ndfs(graph.getInitialState());
         } catch (CycleFoundException e) {
             result = true;
         }
