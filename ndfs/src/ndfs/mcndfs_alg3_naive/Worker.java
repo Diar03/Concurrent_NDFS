@@ -38,7 +38,6 @@ public class Worker {
     public Worker(File promelaFile) throws FileNotFoundException {
 
         this.graph = GraphFactory.createGraph(promelaFile);
-        println("Number of states: " + graph.getNumberOfStates());
     }
 
     private void dfsRed(State s) throws CycleFoundException {
