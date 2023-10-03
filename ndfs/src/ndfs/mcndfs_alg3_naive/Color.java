@@ -5,5 +5,5 @@ package ndfs.mcndfs_alg3_naive;
  */
 public enum Color {
 
-    CYAN, WHITE, RED, BLUE
+    CYAN, WHITE, RED, BLUE, PINK
 }
