@@ -112,7 +112,6 @@ public class Worker implements Callable<Void> {
         }
         if(allred){
             Shared.setRed(s, true);
-            cntRed++;
         }
         else if(s.isAccepting()){
             Shared.increment(s);

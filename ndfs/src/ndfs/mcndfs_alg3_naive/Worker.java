@@ -117,7 +117,6 @@ public Void call() throws Exception {
 
         if(allred){
             Shared.setRed(s, true);
-            cntRed++;
         }
         else if(s.isAccepting()){
             Shared.increment(s);
