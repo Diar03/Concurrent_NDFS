@@ -2,6 +2,11 @@ package ndfs.mcndfs_alg3_naive;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.concurrent.CompletionService;
+import java.util.concurrent.ExecutorCompletionService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 import ndfs.NDFS;
 
@@ -11,7 +16,11 @@ import ndfs.NDFS;
  */
 public class NNDFS implements NDFS {
 
-    private final Worker worker;
+    private ExecutorService pool;
+
+    private CompletionService<Void> ecs;// = new ExecutorCompletionService<Void>(pool);
+
+    private Worker[] workers;
 
     /**
      * Constructs an NDFS object using the specified Promela file.
@@ -23,13 +32,37 @@ public class NNDFS implements NDFS {
      *             is thrown in case the file could not be read.
      */
     public NNDFS(File promelaFile, int nrWorkers) throws FileNotFoundException {
+        pool = Executors.newFixedThreadPool(nrWorkers);
+        ecs = new ExecutorCompletionService<Void>(pool);
 
-        this.worker = new Worker(promelaFile);
+        this.workers = new Worker[nrWorkers];
+        for (int i = 0; i < nrWorkers; i++) {
+            workers[i] = new Worker(promelaFile);
+            workers[i].setThreadNr(i);
+        }
     }
 
     @Override
     public boolean ndfs() {
-        worker.run();
-        return worker.getResult();
+        for (int i = 0; i < this.workers.length; i++){//Worker w : this.workers) {
+        ecs.submit(workers[i]);
+    }
+    try {
+        ecs.take();                     // wait for the first completed task
+    } catch (InterruptedException e) {
+                                        // Do nothing
+    } finally {
+        pool.shutdownNow();             // shutdown the thread pool
+    }
+
+    try {
+        // Wait for the pool to actually terminate.
+        pool.awaitTermination(Long.MAX_VALUE, TimeUnit.SECONDS);
+    } catch (InterruptedException e) {
+        // ignore
+    }
+
+
+    return Shared.getResult();
     }
 }
