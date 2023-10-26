@@ -26,7 +26,7 @@ public Void call() throws Exception {
     } catch (CycleFoundException e) {
         Shared.setResult(true);
     } catch (InterruptedException e) {
-        // Ignore exception
+        // Ignore 
     }
         System.out.println("cyan " + cntCyan + " blue " + cntBlue + " red " + cntRed + " pink " + cntPink);
 
@@ -65,7 +65,7 @@ public Void call() throws Exception {
         
         for(State t : mcPost(s)){
 
-            if (Thread.interrupted())               // Clears interrupted status!
+            if (Thread.interrupted())               
                     throw new InterruptedException();
 
             if(colors.hasColor(t, Color.CYAN)){
@@ -80,7 +80,7 @@ public Void call() throws Exception {
         if(s.isAccepting()){
             Shared.decrement(s);
             while(Shared.getCount(s) == 0){            // Wait
-                if (Thread.interrupted())              // Clears interrupted status!
+                if (Thread.interrupted())              
                     throw new InterruptedException();
             }
         }
@@ -95,7 +95,7 @@ public Void call() throws Exception {
         cntCyan++;
         for (State t : mcPost(s)) {
 
-            if (Thread.interrupted())               // Clears interrupted status!
+            if (Thread.interrupted())               
                     throw new InterruptedException();
 
             if (colors.hasColor(t, Color.CYAN) && (s.isAccepting() || t.isAccepting())) {
@@ -112,7 +112,7 @@ public Void call() throws Exception {
             
         }
 
-        if (Thread.interrupted())               // Clears interrupted status!
+        if (Thread.interrupted())             
                     throw new InterruptedException();
 
         if(allred){
@@ -129,6 +129,8 @@ public Void call() throws Exception {
 
     private void mc_ndfs(State s) throws CycleFoundException, InterruptedException {
         dfsBlue(s);
+        // The result is set to no cycle initially, 
+        // so we can just return when we have traversed through the whole state space
     }
 
     private List<State> mcPost(State s){

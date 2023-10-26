@@ -61,7 +61,7 @@ public class Worker implements Callable<Void> {
         colors.color(s, Color.PINK);
         cntPink++;
         for(State t : mcPost(s)){
-            if (Thread.interrupted())  // Clears interrupted status!
+            if (Thread.interrupted())  
                 throw new InterruptedException();
             if(colors.hasColor(t, Color.CYAN)){
                 throw new CycleFoundException();
@@ -74,7 +74,7 @@ public class Worker implements Callable<Void> {
         if(s.isAccepting()){
             Shared.decrement(s);
             while(Shared.getCount(s) == 0){             // Wait
-                if (Thread.interrupted())               // Clears interrupted status!
+                if (Thread.interrupted())              
                     throw new InterruptedException();
             }
         }
@@ -84,15 +84,14 @@ public class Worker implements Callable<Void> {
     }
 
     private void dfsBlue(State s) throws CycleFoundException, InterruptedException {
-        if(Thread.currentThread().isInterrupted()){
-            return;
-        }
+        if (Thread.interrupted()) 
+            throw new InterruptedException();
         allred = true;
         colors.color(s, Color.CYAN);
         cntCyan++;
         for (State t : mcPost(s)) {
 
-            if (Thread.interrupted())               // Clears interrupted status!
+            if (Thread.interrupted())               
                     throw new InterruptedException();
 
             if (colors.hasColor(t, Color.CYAN) && (s.isAccepting() || t.isAccepting())) {
@@ -107,7 +106,7 @@ public class Worker implements Callable<Void> {
                 allred = false;
             }
 
-            if (Thread.interrupted())               // Clears interrupted status!
+            if (Thread.interrupted())              
                     throw new InterruptedException();
         }
         if(allred){
@@ -123,10 +122,15 @@ public class Worker implements Callable<Void> {
 
     private void mc_ndfs(State s) throws CycleFoundException, InterruptedException {
         dfsBlue(s);
+        // The result is set to no cycle initially, 
+        // so we can just return when we have traversed through the whole state space
+        // and we haven't found a cycle.
     }
 
     private List<State> mcPost(State s){
         List<State> states = graph.post(s);
+        // Removes i elements from the front of the list and places them on the back,
+        // achieving a consistent order for the thread, but different order for different threads.
         for(int i = 0; i < states.size() && i < threadNr; i++){
             State state = states.remove(0);
             states.add(state);

@@ -9,7 +9,7 @@ public class Shared {
     // Prevent new instances from being created.
     private Shared(){}
 
-    private static volatile boolean result = false;
+    private static boolean result = false;
     private static volatile ConcurrentHashMap<State, Boolean> hashRed;
     private static volatile ConcurrentHashMap<State, Integer> countMap;
     private static Shared instance = new Shared();

@@ -10,11 +10,11 @@ public class Shared {
     // Prevent new instances from being created.
     private Shared(){}
 
-    private static boolean result = false;
-    private static HashMap<State, Boolean> hashRed = new HashMap<State, Boolean>();
-    private static HashMap<State, Integer> countMap = new HashMap<State, Integer>();
+    private static volatile boolean result = false;
+    private static volatile HashMap<State, Boolean> hashRed = new HashMap<State, Boolean>();
+    private static volatile HashMap<State, Integer> countMap = new HashMap<State, Integer>();
     private static Shared instance = new Shared();
-    private static ReentrantLock countLock, redLock = new ReentrantLock();
+    private static volatile ReentrantLock countLock, redLock = new ReentrantLock();
 
     public static Integer getCount(State state) {
         try{
