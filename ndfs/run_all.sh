@@ -43,6 +43,6 @@ for filename in ./input/*; do
 
     value=$(echo "$output" | grep -o "took .*" | cut -d ' ' -f 2)
     # Print the values in a table format with borders
-    printf "| %-20s | %-15s | %-12s | %-15s | %-9s ms | ${bold}%-10s${normal} | ${bold}%-10s${normal} | ${bold}%-10s${normal} | ${bold}%-10s${normal} |\n" "$input_file" "$model" "$numthreads" "$accept_state" "$value" "$cyan_nr" "$blue_nr" "$red_nr" "$pink_nr"
+    printf "| %-20s | %-15s | %-12s | %-15s | %-9s ms | ${bold}%-10s${normal} | ${bold}%-10s${normal} | ${bold}%-10s${normal} | ${bold}%-10s${normal} |\n" "$input_file" "$model" "$numthreads" "$accept_state" "$value" # "$cyan_nr" "$blue_nr" "$red_nr" "$pink_nr"
     echo "$table_line"
 done

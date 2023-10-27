@@ -6,88 +6,93 @@ import java.util.concurrent.locks.ReentrantLock;
 import graph.State;
 
 public class Shared {
-    
-    // Prevent new instances from being created.
-    private Shared(){}
 
-    private static volatile boolean result = false;
-    private static volatile HashMap<State, Boolean> hashRed = new HashMap<State, Boolean>();
+    private static Shared instance;
     private static volatile HashMap<State, Integer> countMap = new HashMap<State, Integer>();
-    private static Shared instance = new Shared();
-    private static volatile ReentrantLock countLock, redLock = new ReentrantLock();
+    private static volatile HashMap<State, Boolean> redColor = new HashMap<State, Boolean>();
 
-    public static Integer getCount(State state) {
-        try{
-            
-            countLock.lock();
-            int count = countMap.get(state);
-            return count;
-        } finally {
-            countLock.unlock();
-        }
+    private static final ReentrantLock countLock = new ReentrantLock();
+    private static final ReentrantLock redLock = new ReentrantLock();
+
+    private static boolean result = false;
+
+    
+    private Shared() {
+        // private constructor to prevent instantiation
     }
-
-    public static void increment(State state) {
-
-        try{
-            countLock.lock();
-            if(countMap.get(state) == null) {
-                countMap.put(state, 1);
-            } else {
-                countMap.put(state, countMap.get(state) + 1);
-            }
-            
-        } finally{
-            countLock.unlock();
-        }
-    }
-
-    public static void decrement(State state) {
-        try{
-            countLock.lock();
-            if(countMap.get(state) == null) { // Not possible in correct implementation
-                System.out.println("Error: decrementing state that has not been incremented"); 
-            } else {
-                countMap.put(state, countMap.get(state) - 1);
-            }
-        } finally {
-            countLock.unlock();
-        }
-    }
-
-    public static boolean isRed(State state) {
-        try{
-            redLock.lock();
-            if(hashRed.get(state) == null) {
-                setRed(state, false);
-                return false;
-            } else {
-                boolean res = Shared.hashRed.get(state);
-                return res;
-             }
-        } finally {
-            redLock.unlock();
-        }
-        
-    }
-
-    public static void setRed(State state, boolean value) {
-        try{
-            redLock.lock();
-            Shared.hashRed.put(state, value);
-        } finally {
-            redLock.unlock();
-        }
-    }
-
+    
     public static Shared getInstance() {
+        if (instance == null) {
+            instance = new Shared();
+        }
         return instance;
     }
 
-    public static void setResult(boolean result) {
-        Shared.result = result;
-    }
     public static boolean getResult() {
-        return Shared.result;
+        return result;
     }
+
+    public static void setResult(boolean value) {
+        result = value;
+    }
+
+    public static int getCounter(State s) {
+        countLock.lock();
+        try {
+            if (countMap.containsKey(s)) {
+                return countMap.get(s);
+            } else {
+                System.out.println("Counter not initialized");
+                throw new Error("Counter not initialized");
+            }
+        } finally {
+            countLock.unlock();
+        }
+    }
+
+    public static void incrementCounter(State s) {
+        countLock.lock();
+        try {
+            if (countMap.containsKey(s)) {
+                countMap.put(s, countMap.get(s) + 1);
+            } else {
+                countMap.put(s, 1);
+            }
+        } finally {
+            countLock.unlock();
+        }
+    }
+
+    public static void decrementCounter(State s){
+        countLock.lock();
+        try {
+            if (countMap.containsKey(s)) {
+                countMap.put(s, countMap.get(s) - 1);
+            } else {
+                countMap.put(s, 0);                  // This if condition should not be reached
+            }
+        } finally {
+            countLock.unlock();
+        }
+    }
+
+    public static void setRed(State s, boolean value) {
+        redLock.lock();
+        try {
+            redColor.put(s, value);
+        } finally {
+            redLock.unlock();
+        }
+    }
+
+    public static boolean isRed(graph.State t) {
+        redLock.lock();
+        try {
+            return redColor.containsKey(t);
+        } finally {
+            redLock.unlock();
+        }
+    }
+
+
 }

@@ -2,8 +2,11 @@ package ndfs.mcndfs_alg3_optimized;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
+
+import java.util.concurrent.atomic.AtomicInteger;
 
 import graph.Graph;
 import graph.GraphFactory;
@@ -12,32 +15,15 @@ import graph.State;
 
 public class Worker implements Callable<Void> {
 
-    private int threadNr;
-
-    public void setThreadNr(int threadNr) {
-        this.threadNr = threadNr;
-    }
-
-    
-    @Override
-    public Void call() {
-        try {
-            mc_ndfs(graph.getInitialState());
-        } catch (CycleFoundException e) {
-            Shared.setResult(true);
-        } catch (InterruptedException e){
-            // Ignore
-        }
-        System.out.println("cyan " + cntCyan + " blue " + cntBlue + " red " + cntRed + " pink " + cntPink);
-        return null;
-    }
     private final Graph graph;
+    private final int threadID;
     private final Colors colors = new Colors();
+
     private int cntRed  = 0;
     private int cntBlue = 0;
     private int cntCyan = 0;
     private int cntPink = 0;
-    private boolean allred;
+    private boolean allred = true;
 
     // Throwing an exception is a convenient way to cut off the search in case a
     // cycle is found.
@@ -50,92 +36,126 @@ public class Worker implements Callable<Void> {
      *
      * @param promelaFile
      *            the Promela file.
+     * 
+     * @param threadID
+     *            the thread number.
+     * 
      * @throws FileNotFoundException
      *             is thrown in case the file could not be read.
      */
-    public Worker(File promelaFile) throws FileNotFoundException {
+    public Worker(File promelaFile, int threadID) throws FileNotFoundException {
         this.graph = GraphFactory.createGraph(promelaFile);
+        this.threadID = threadID;
     }
 
+    @Override
+    public Void call() {
+        try {
+            mc_ndfs(graph.getInitialState());
+        } catch (CycleFoundException e) {
+            Shared.setResult(true);
+        } catch (InterruptedException e){
+            // Do nothing
+        }
+        System.out.println("cyan " + cntCyan + " blue " + cntBlue + " red " + cntRed + " pink " + cntPink);
+        return null;
+    }
+
+
     private void dfsRed(State s) throws CycleFoundException, InterruptedException {
+
         colors.color(s, Color.PINK);
-        cntPink++;
+        ++cntPink;
+
         for(State t : mcPost(s)){
-            if (Thread.interrupted())  
+
+            if(Thread.interrupted())
                 throw new InterruptedException();
+            
+
             if(colors.hasColor(t, Color.CYAN)){
                 throw new CycleFoundException();
             }
-            if(!colors.hasColor(t, Color.PINK) && !Shared.isRed(t)){
+
+            if(!colors.hasColor(t, Color.PINK) && !Shared.hashRed.containsKey(t)){
                 dfsRed(t);
             }
 
+            if(Thread.interrupted())
+                throw new InterruptedException();
+
+
         }
+
         if(s.isAccepting()){
-            Shared.decrement(s);
-            while(Shared.getCount(s) == 0){             // Wait
-                if (Thread.interrupted())              
+            Shared.countMap.get(s).getAndDecrement();
+            while(Shared.countMap.get(s).get() != 0){
+                if(Thread.interrupted())
                     throw new InterruptedException();
             }
         }
-        colors.color(s, Color.RED);
-        cntRed++;    
+
+        Shared.hashRed.put(s, true);
+        ++cntRed;
+
 
     }
 
     private void dfsBlue(State s) throws CycleFoundException, InterruptedException {
-        if (Thread.interrupted()) 
-            throw new InterruptedException();
+
         allred = true;
+
         colors.color(s, Color.CYAN);
-        cntCyan++;
-        for (State t : mcPost(s)) {
+        ++cntCyan;
+        Shared.countMap.putIfAbsent(s, new AtomicInteger(0));
 
-            if (Thread.interrupted())               
-                    throw new InterruptedException();
+        for(State t : mcPost(s)){
 
-            if (colors.hasColor(t, Color.CYAN) && (s.isAccepting() || t.isAccepting())) {
+            if(Thread.interrupted())
+                throw new InterruptedException();
+            
+            if(colors.hasColor(t, Color.CYAN) 
+                && (t.isAccepting() || s.isAccepting() ) ){
                 throw new CycleFoundException();
             }
 
-            if(colors.hasColor(t, Color.WHITE) && (!Shared.isRed(t))){
+            if(colors.hasColor(t, Color.WHITE) && !Shared.hashRed.containsKey(t)){
                 dfsBlue(t);
-                
             }
-            if(!Shared.isRed(t)){
+
+            if(!Shared.hashRed.containsKey(t)){
                 allred = false;
             }
 
-            if (Thread.interrupted())              
-                    throw new InterruptedException();
         }
+
+        if(Thread.interrupted())
+                throw new InterruptedException();
+
         if(allred){
-            Shared.setRed(s, true);
-        }
-        else if(s.isAccepting()){
-            Shared.increment(s);
+            //Shared.setRed(s, true);
+            Shared.hashRed.put(s, true);
+            ++cntRed;
+        } else if(s.isAccepting()){
+            Shared.countMap.putIfAbsent(s, new AtomicInteger(0)).incrementAndGet();
             dfsRed(s);
         }
-        colors.color(s, Color.BLUE);
-        cntBlue++;
-    }
+        if(Thread.interrupted())
+                throw new InterruptedException();
 
-    private void mc_ndfs(State s) throws CycleFoundException, InterruptedException {
-        dfsBlue(s);
-        // The result is set to no cycle initially, 
-        // so we can just return when we have traversed through the whole state space
-        // and we haven't found a cycle.
+        colors.color(s, Color.BLUE);
+        ++cntBlue;
+
     }
 
     private List<State> mcPost(State s){
         List<State> states = graph.post(s);
-        // Removes i elements from the front of the list and places them on the back,
-        // achieving a consistent order for the thread, but different order for different threads.
-        for(int i = 0; i < states.size() && i < threadNr; i++){
-            State state = states.remove(0);
-            states.add(state);
-        }
+        Collections.rotate(states, threadID);
         return states;
     }
-    
+
+    private void mc_ndfs(State s) throws CycleFoundException, InterruptedException {
+        dfsBlue(s);
+    }
+
 }

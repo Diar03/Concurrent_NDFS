@@ -18,7 +18,7 @@ public class NNDFS implements NDFS {
 
     private ExecutorService pool;
 
-    private CompletionService<Void> ecs;// = new ExecutorCompletionService<Void>(pool);
+    private CompletionService<Void> ecs;
 
     private Worker[] workers;
 
@@ -35,39 +35,35 @@ public class NNDFS implements NDFS {
         pool = Executors.newFixedThreadPool(nrWorkers);
         ecs = new ExecutorCompletionService<Void>(pool);
 
-        // Initiate the concurrent maps with the number of workers/threads
-        Shared.initConcurrentMaps(nrWorkers);
-
         this.workers = new Worker[nrWorkers];
         for (int i = 0; i < nrWorkers; i++) {
-            workers[i] = new Worker(promelaFile);
-            workers[i].setThreadNr(i);
+            workers[i] = new Worker(promelaFile, i);
         }
+        Shared.initConcurrentMaps(nrWorkers);   // Initialize the shared concurrent maps
     }
 
     @Override
     public boolean ndfs() {
+        for (int i = 0; i < this.workers.length; i++){
+            ecs.submit(workers[i]);
+        }
 
-    for(Worker w : workers){
-        ecs.submit(w);
-    }
+        try {
+            ecs.take();                     // wait for the first completed task
+        } catch (InterruptedException e) {
+                                            // Do nothing
+        } finally {
+            pool.shutdownNow();             // shutdown the thread pool
+        }
+
+        try {
+            // Wait for the pool to actually terminate.
+            pool.awaitTermination(Long.MAX_VALUE, TimeUnit.SECONDS);
+        } catch (InterruptedException e) {
+            // ignore
+        }
 
 
-    try {
-        ecs.take();
-    } 
-    catch (InterruptedException e) {
-    }    
-    
-    pool.shutdownNow();
-    try {
-        // Wait for the pool to actually terminate.
-        pool.awaitTermination(Long.MAX_VALUE, TimeUnit.SECONDS);
-    } catch (InterruptedException e) {
-        System.out.println("Interrupted exception in awaitTermination");
-    }
-
-
-    return Shared.getResult();
+        return Shared.getResult();
     }
 }
