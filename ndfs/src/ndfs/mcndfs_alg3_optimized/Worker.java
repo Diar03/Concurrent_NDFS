@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import graph.Graph;
@@ -17,6 +18,8 @@ public class Worker implements Callable<Void> {
     private final Graph graph;
     private int threadID;
     private final Colors colors = new Colors();
+
+    public static CountDownLatch endLatch;
 
     private int cntRed  = 0;
     private int cntBlue = 0;
@@ -131,6 +134,7 @@ public class Worker implements Callable<Void> {
 
         if(allred){
             Shared.hashRed.putIfAbsent(s, true);
+            ++cntRed;
         } else if(s.isAccepting()){
             Shared.countMap.putIfAbsent(s, new AtomicInteger(0));
             Shared.countMap.get(s).incrementAndGet();
@@ -153,6 +157,8 @@ public class Worker implements Callable<Void> {
 
     private void mc_ndfs(State s) throws CycleFoundException, InterruptedException {
         dfsBlue(s);
+        endLatch.countDown();
+        endLatch.await();
     }
 
 }

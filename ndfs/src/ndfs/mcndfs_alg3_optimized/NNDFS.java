@@ -41,6 +41,7 @@ public class NNDFS implements NDFS {
             workers[i] = new Worker(promelaFile, i);
         }
         Shared.initConcurrentMaps(nrWorkers);   // Initialize the shared concurrent maps
+        Worker.endLatch = new CountDownLatch(nrWorkers);
     }
 
     @Override

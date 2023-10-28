@@ -3,6 +3,7 @@ package ndfs.mcndfs_alg3_naive;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.concurrent.CompletionService;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorCompletionService;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -39,6 +40,8 @@ public class NNDFS implements NDFS {
         for (int i = 0; i < nrWorkers; i++) {
             workers[i] = new Worker(promelaFile, i);
         }
+
+        Worker.endLatch = new CountDownLatch(nrWorkers);
     }
 
     @Override

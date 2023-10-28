@@ -1,387 +1,675 @@
-Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 33.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 34.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 31.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 31.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 33.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 76.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 72.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 73.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 81.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 74.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 31.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 40.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 31.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 31.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 34.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 64.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 73.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 70.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 62.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 71.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 30.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 32.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 35.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 35.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 36.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 74.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 65.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 81.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 80.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 72.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 30.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 31.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 36.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 33.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 33.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 83.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 64.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 69.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 78.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 70.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 4308.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 3084.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 5632.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 5571.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 6950.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 2793.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 3843.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 138.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 528.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 9724.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 870.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 332.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 1654.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 1790.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 1165.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 1664.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 98.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 1163.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 372.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 1104.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 39.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 34.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 38.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 36.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 39.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 66.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 82.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 74.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 75.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 80.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 32.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 34.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 35.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 30.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 34.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 73.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 75.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 70.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 72.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 61.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 2485.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 9971.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 36617.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 23590.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 27557.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 1183.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 47450.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 314.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 35024.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 63232.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 2354.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 11532.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 7920.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 8610.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 5660.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 3341.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 5470.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 215.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 1690.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 2619.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 7830.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 8682.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 8162.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 8437.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 8518.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8459.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8305.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8396.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8336.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8653.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 2588.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 3138.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 2461.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 3273.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 3354.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2628.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2290.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2661.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2243.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2303.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 6686.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 4366.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 2732.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 2720.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 777.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 7423.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1740.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 9098.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 4687.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 5900.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 655.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 2196.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 400.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 1587.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 1177.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1621.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 333.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1719.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1613.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1850.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7259.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 8076.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7681.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7227.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7317.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 9641.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 11152.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 10726.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 10363.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 10015.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 2554.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 2470.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 2661.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 2375.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 2708.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1765.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1701.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1792.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1814.0 ms, Correctness: No Cycle Present
+Benchmark ImplementationsAlgorithm: seq, Threads: 1, Input File: accept-cycle.prom, Runtime: 1.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: accept-cycle.prom, Runtime: 1.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: accept-cycle.prom, Runtime: 1.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: accept-cycle.prom, Runtime: 1.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: accept-cycle.prom, Runtime: 1.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 7.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 10.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: accept-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: accept-cycle.prom, Runtime: 12.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: accept-cycle.prom, Runtime: 10.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: accept-cycle.prom, Runtime: 9.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: accept-cycle.prom, Runtime: 10.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: accept-cycle.prom, Runtime: 10.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 16.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 22.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 17.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 19.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: accept-cycle.prom, Runtime: 21.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 6.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 7.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 6.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 7.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: accept-cycle.prom, Runtime: 5.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: accept-cycle.prom, Runtime: 9.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: accept-cycle.prom, Runtime: 9.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: accept-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: accept-cycle.prom, Runtime: 9.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: accept-cycle.prom, Runtime: 9.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 16.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 19.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 17.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 19.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: accept-cycle.prom, Runtime: 21.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep.sumo, Runtime: 4674.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep.sumo, Runtime: 5167.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep.sumo, Runtime: 4522.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep.sumo, Runtime: 5658.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep.sumo, Runtime: 5073.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 7646.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 7839.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 7251.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 7382.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 6611.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep.sumo, Runtime: 18640.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep.sumo, Runtime: 17873.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep.sumo, Runtime: 17744.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep.sumo, Runtime: 18468.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep.sumo, Runtime: 14547.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 40328.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 38419.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 37225.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 37402.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 39173.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2352.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2528.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2521.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2448.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2501.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep.sumo, Runtime: 4560.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep.sumo, Runtime: 4652.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep.sumo, Runtime: 4380.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep.sumo, Runtime: 4852.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep.sumo, Runtime: 4351.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7698.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 8051.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7635.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7788.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7573.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide.sumo, Runtime: 24060.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide.sumo, Runtime: 23148.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide.sumo, Runtime: 23449.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide.sumo, Runtime: 22047.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide.sumo, Runtime: 25355.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 62078.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 57011.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 60201.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 58814.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 58585.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide.sumo, Runtime: 61814.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide.sumo, Runtime: 54967.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide.sumo, Runtime: 57874.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide.sumo, Runtime: 65752.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide.sumo, Runtime: 63640.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 69222.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 68749.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 73085.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 69219.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 70726.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 21285.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 21044.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 20700.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 19603.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 20244.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide.sumo, Runtime: 18800.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide.sumo, Runtime: 17743.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide.sumo, Runtime: 18422.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide.sumo, Runtime: 11330.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide.sumo, Runtime: 10204.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 18116.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 17065.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 10659.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 11992.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 9842.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-converge.prom, Runtime: 3600.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-converge.prom, Runtime: 3614.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-converge.prom, Runtime: 3596.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-converge.prom, Runtime: 3252.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-converge.prom, Runtime: 3340.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7169.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 6837.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7341.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7389.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-converge.prom, Runtime: 7177.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-converge.prom, Runtime: 9269.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-converge.prom, Runtime: 8695.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-converge.prom, Runtime: 8778.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-converge.prom, Runtime: 8722.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-converge.prom, Runtime: 8845.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 9492.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 10072.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 9122.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 10090.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-converge.prom, Runtime: 8779.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 1816.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 2442.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 2383.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 1911.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-converge.prom, Runtime: 1998.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-converge.prom, Runtime: 1850.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-converge.prom, Runtime: 1641.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-converge.prom, Runtime: 1931.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-converge.prom, Runtime: 1572.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-converge.prom, Runtime: 1726.0 ms, Correctness: No Cycle Present
 Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1589.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 5622.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 6334.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 8297.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 6820.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep.sumo, Runtime: 6384.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 25511.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 40232.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 33961.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 28277.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep.sumo, Runtime: 35352.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2949.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2933.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2830.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2670.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep.sumo, Runtime: 2776.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7672.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7611.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7497.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 8062.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep.sumo, Runtime: 7496.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1546.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1245.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1432.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 2186.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1458.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 1514.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 1394.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 1651.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 5207.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 1772.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1769.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1574.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1340.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1804.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 1556.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 5814.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 6457.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 12909.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 4366.0 ms, Correctness: Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 4402.0 ms, Correctness: Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 56920.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 60193.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 53804.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 58250.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bench-wide.sumo, Runtime: 55771.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 66434.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 68866.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 70374.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 65190.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bench-wide.sumo, Runtime: 65644.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 11729.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 11464.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 11870.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 11339.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide.sumo, Runtime: 11296.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 7462.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 8761.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 7110.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 7864.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide.sumo, Runtime: 7251.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7544.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7808.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7729.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7520.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7829.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 9339.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 9844.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 10545.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 10259.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 9727.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 1838.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 2070.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 1914.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 2574.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 2501.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1827.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1457.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1585.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1813.0 ms, Correctness: No Cycle Present
-Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1567.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1842.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1639.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1579.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-converge.prom, Runtime: 1440.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-max.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-max.prom, Runtime: 1.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-max.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-max.prom, Runtime: 1.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-max.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 5379.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 5939.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 1339.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 3479.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 1915.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 260.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 5980.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 1974.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 4738.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 797.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 1389.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 7731.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 575.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 8894.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 1655.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 951.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 1175.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 2227.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 1252.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-max.prom, Runtime: 811.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 1141.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 1839.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 1371.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 68.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-max.prom, Runtime: 1502.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 265.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 1589.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 424.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 526.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-max.prom, Runtime: 1113.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-min.prom, Runtime: 3134.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-min.prom, Runtime: 3249.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-min.prom, Runtime: 2899.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-min.prom, Runtime: 3285.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle-min.prom, Runtime: 3141.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 4582.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 4024.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 4869.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 6273.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 770.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 3214.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 5322.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 7695.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 4807.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 2538.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 2309.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 485.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 4663.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 7834.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 2897.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 1902.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 466.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 2002.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 1166.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle-min.prom, Runtime: 2151.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 489.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 1036.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 1167.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 980.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle-min.prom, Runtime: 1540.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1132.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 818.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 531.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1180.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle-min.prom, Runtime: 1259.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-cycle.prom, Runtime: 2.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 9.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 9.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle.prom, Runtime: 12.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle.prom, Runtime: 13.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle.prom, Runtime: 11.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle.prom, Runtime: 13.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-cycle.prom, Runtime: 12.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 16.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 22.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 15.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 20.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-cycle.prom, Runtime: 15.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 8.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 7.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-cycle.prom, Runtime: 7.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle.prom, Runtime: 11.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle.prom, Runtime: 11.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle.prom, Runtime: 11.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle.prom, Runtime: 7.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-cycle.prom, Runtime: 13.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 23.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 18.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 17.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 16.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-cycle.prom, Runtime: 19.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-loop.prom, Runtime: 3589.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-loop.prom, Runtime: 3631.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-loop.prom, Runtime: 3223.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-loop.prom, Runtime: 3786.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree-loop.prom, Runtime: 3213.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 8185.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 7930.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 7440.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 7809.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree-loop.prom, Runtime: 7711.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-loop.prom, Runtime: 8242.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-loop.prom, Runtime: 8078.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-loop.prom, Runtime: 8119.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-loop.prom, Runtime: 8249.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree-loop.prom, Runtime: 8305.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8164.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8037.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 7940.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8051.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree-loop.prom, Runtime: 8109.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 2611.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 2886.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 2810.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 2941.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree-loop.prom, Runtime: 2984.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-loop.prom, Runtime: 2663.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-loop.prom, Runtime: 2412.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-loop.prom, Runtime: 2424.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-loop.prom, Runtime: 2089.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree-loop.prom, Runtime: 2522.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 1903.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 1772.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2319.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2050.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree-loop.prom, Runtime: 2325.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree.prom, Runtime: 3304.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree.prom, Runtime: 2969.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree.prom, Runtime: 2913.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree.prom, Runtime: 3084.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bintree.prom, Runtime: 2949.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7246.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7030.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 7267.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 6786.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bintree.prom, Runtime: 6941.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree.prom, Runtime: 8042.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree.prom, Runtime: 7891.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree.prom, Runtime: 8228.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree.prom, Runtime: 7799.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bintree.prom, Runtime: 8289.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 9295.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 9059.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 10382.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 9126.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bintree.prom, Runtime: 8793.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 2032.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 1982.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 2308.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 2236.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bintree.prom, Runtime: 2244.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree.prom, Runtime: 1885.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree.prom, Runtime: 2111.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree.prom, Runtime: 1698.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree.prom, Runtime: 2132.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bintree.prom, Runtime: 1856.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1372.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1608.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1339.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1493.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bintree.prom, Runtime: 1471.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: simple-loop.prom, Runtime: 1.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: simple-loop.prom, Runtime: 1.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: simple-loop.prom, Runtime: 1.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: simple-loop.prom, Runtime: 1.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: simple-loop.prom, Runtime: 1.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 9.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 10.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 8.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 9.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: simple-loop.prom, Runtime: 9.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: simple-loop.prom, Runtime: 13.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: simple-loop.prom, Runtime: 9.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: simple-loop.prom, Runtime: 10.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: simple-loop.prom, Runtime: 9.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: simple-loop.prom, Runtime: 9.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 17.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 18.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 22.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 18.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: simple-loop.prom, Runtime: 22.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 5.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 4.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 6.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 4.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: simple-loop.prom, Runtime: 4.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: simple-loop.prom, Runtime: 8.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: simple-loop.prom, Runtime: 10.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: simple-loop.prom, Runtime: 12.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: simple-loop.prom, Runtime: 8.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: simple-loop.prom, Runtime: 9.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 17.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 16.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 18.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 20.0 ms, Correctness: No Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: simple-loop.prom, Runtime: 16.0 ms, Correctness: No Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep-cycle.sumo, Runtime: 4709.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep-cycle.sumo, Runtime: 4090.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep-cycle.sumo, Runtime: 4096.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep-cycle.sumo, Runtime: 3973.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-deep-cycle.sumo, Runtime: 4319.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 330.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 346.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 285.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 52.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 282.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 612.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 675.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 772.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 344.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 641.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 1094.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 744.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 708.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 721.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 673.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 257.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 273.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 287.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 335.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-deep-cycle.sumo, Runtime: 242.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 600.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 761.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 628.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 539.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-deep-cycle.sumo, Runtime: 578.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 973.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 1125.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 770.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 458.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-deep-cycle.sumo, Runtime: 657.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide-cycle.sumo, Runtime: 21122.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide-cycle.sumo, Runtime: 21686.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide-cycle.sumo, Runtime: 22009.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide-cycle.sumo, Runtime: 21078.0 ms, Correctness: Cycle Present
+Algorithm: seq, Threads: 1, Input File: bench-wide-cycle.sumo, Runtime: 20733.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 39535.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 21470.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 32103.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 51693.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 17008.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 12399.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 53658.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 3580.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 33014.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 28090.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 3509.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 19193.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 26598.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 20548.0 ms, Correctness: Cycle Present
+Algorithm: alg3_naive, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 58415.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 9284.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 12429.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 7505.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 8505.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 4, Input File: bench-wide-cycle.sumo, Runtime: 11849.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 9436.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 1287.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 6936.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 6993.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 8, Input File: bench-wide-cycle.sumo, Runtime: 2615.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 1483.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 6151.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 6504.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 10121.0 ms, Correctness: Cycle Present
+Algorithm: alg3_optimized, Threads: 16, Input File: bench-wide-cycle.sumo, Runtime: 8055.0 ms, Correctness: Cycle Present
 Results for NDFS
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ==========================================================
-Algorithm: alg3_naive, with 4 threads:
-Input File: accept-cycle.prom, Avg: 32.4 ms
+Algorithm: seq, with 1 threads:
+Input File: accept-cycle.prom, Avg: 1.0 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bench-deep.sumo, Avg: 5018.8 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bench-wide.sumo, Avg: 23611.8 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bintree-converge.prom, Avg: 3480.4 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bintree-cycle-max.prom, Avg: 1.6 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bintree-cycle-min.prom, Avg: 3141.6 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bintree-cycle.prom, Avg: 2.0 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bintree-loop.prom, Avg: 3488.4 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bintree.prom, Avg: 3043.8 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: simple-loop.prom, Avg: 1.0 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bench-deep-cycle.sumo, Avg: 4237.4 ms
+==========================================================
+Algorithm: seq, with 1 threads:
+Input File: bench-wide-cycle.sumo, Avg: 21325.6 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: simple-loop.prom, Avg: 33.6 ms
+Input File: accept-cycle.prom, Avg: 8.2 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bintree-cycle-max.prom, Avg: 5109.0 ms
+Input File: bench-deep.sumo, Avg: 7345.8 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bintree-cycle.prom, Avg: 37.2 ms
+Input File: bench-wide.sumo, Avg: 59337.8 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bench-wide-cycle.sumo, Avg: 20044.0 ms
+Input File: bintree-converge.prom, Avg: 7182.6 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bintree-loop.prom, Avg: 8325.8 ms
+Input File: bintree-cycle-max.prom, Avg: 3610.2 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bintree-cycle-min.prom, Avg: 3456.2 ms
+Input File: bintree-cycle-min.prom, Avg: 4103.6 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bintree-converge.prom, Avg: 7512.0 ms
+Input File: bintree-cycle.prom, Avg: 8.4 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bench-deep.sumo, Avg: 6691.4 ms
+Input File: bintree-loop.prom, Avg: 7815.0 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bench-deep-cycle.sumo, Avg: 1573.4 ms
+Input File: bintree.prom, Avg: 7054.0 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bench-wide.sumo, Avg: 56987.6 ms
+Input File: simple-loop.prom, Avg: 9.0 ms
 ==========================================================
 Algorithm: alg3_naive, with 4 threads:
-Input File: bintree.prom, Avg: 7686.0 ms
+Input File: bench-deep-cycle.sumo, Avg: 259.0 ms
+==========================================================
+Algorithm: alg3_naive, with 4 threads:
+Input File: bench-wide-cycle.sumo, Avg: 32361.8 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: accept-cycle.prom, Avg: 10.2 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bench-deep.sumo, Avg: 17454.4 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bench-wide.sumo, Avg: 60809.4 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bintree-converge.prom, Avg: 8861.8 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bintree-cycle-max.prom, Avg: 2749.8 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bintree-cycle-min.prom, Avg: 4715.2 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bintree-cycle.prom, Avg: 12.2 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bintree-loop.prom, Avg: 8198.6 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bintree.prom, Avg: 8049.8 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: simple-loop.prom, Avg: 10.0 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bench-deep-cycle.sumo, Avg: 608.8 ms
+==========================================================
+Algorithm: alg3_naive, with 8 threads:
+Input File: bench-wide-cycle.sumo, Avg: 26148.2 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: accept-cycle.prom, Avg: 75.2 ms
+Input File: accept-cycle.prom, Avg: 19.0 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: simple-loop.prom, Avg: 74.4 ms
+Input File: bench-deep.sumo, Avg: 38509.4 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bintree-cycle-max.prom, Avg: 3405.2 ms
+Input File: bench-wide.sumo, Avg: 70200.2 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bintree-cycle.prom, Avg: 75.4 ms
+Input File: bintree-converge.prom, Avg: 9511.0 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bench-wide-cycle.sumo, Avg: 29440.6 ms
+Input File: bintree-cycle-max.prom, Avg: 4048.8 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bintree-loop.prom, Avg: 8429.8 ms
+Input File: bintree-cycle-min.prom, Avg: 3637.6 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bintree-cycle-min.prom, Avg: 5769.6 ms
+Input File: bintree-cycle.prom, Avg: 17.6 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bintree-converge.prom, Avg: 10379.4 ms
+Input File: bintree-loop.prom, Avg: 8060.2 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bench-deep.sumo, Avg: 32666.6 ms
+Input File: bintree.prom, Avg: 9331.0 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bench-deep-cycle.sumo, Avg: 2307.6 ms
+Input File: simple-loop.prom, Avg: 19.4 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bench-wide.sumo, Avg: 67301.6 ms
+Input File: bench-deep-cycle.sumo, Avg: 788.0 ms
 ==========================================================
 Algorithm: alg3_naive, with 16 threads:
-Input File: bintree.prom, Avg: 9942.8 ms
+Input File: bench-wide-cycle.sumo, Avg: 25652.6 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: accept-cycle.prom, Avg: 33.4 ms
+Input File: accept-cycle.prom, Avg: 6.2 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: simple-loop.prom, Avg: 32.6 ms
+Input File: bench-deep.sumo, Avg: 2470.0 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bintree-cycle-max.prom, Avg: 1162.2 ms
+Input File: bench-wide.sumo, Avg: 20575.2 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bintree-cycle.prom, Avg: 33.0 ms
+Input File: bintree-converge.prom, Avg: 2110.0 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bench-wide-cycle.sumo, Avg: 7215.2 ms
+Input File: bintree-cycle-max.prom, Avg: 1283.2 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bintree-loop.prom, Avg: 2962.8 ms
+Input File: bintree-cycle-min.prom, Avg: 1537.4 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bintree-cycle-min.prom, Avg: 1203.0 ms
+Input File: bintree-cycle.prom, Avg: 7.6 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bintree-converge.prom, Avg: 2553.6 ms
+Input File: bintree-loop.prom, Avg: 2846.4 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bench-deep.sumo, Avg: 2831.6 ms
+Input File: bintree.prom, Avg: 2160.4 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bench-deep-cycle.sumo, Avg: 1608.6 ms
+Input File: simple-loop.prom, Avg: 4.6 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bench-wide.sumo, Avg: 11539.6 ms
+Input File: bench-deep-cycle.sumo, Avg: 278.8 ms
 ==========================================================
 Algorithm: alg3_optimized, with 4 threads:
-Input File: bintree.prom, Avg: 2179.4 ms
+Input File: bench-wide-cycle.sumo, Avg: 9914.4 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: accept-cycle.prom, Avg: 8.8 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bench-deep.sumo, Avg: 4559.0 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bench-wide.sumo, Avg: 15299.8 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bintree-converge.prom, Avg: 1744.0 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bintree-cycle-max.prom, Avg: 1184.2 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bintree-cycle-min.prom, Avg: 1042.4 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bintree-cycle.prom, Avg: 10.6 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bintree-loop.prom, Avg: 2422.0 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bintree.prom, Avg: 1936.4 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: simple-loop.prom, Avg: 9.4 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bench-deep-cycle.sumo, Avg: 621.2 ms
+==========================================================
+Algorithm: alg3_optimized, with 8 threads:
+Input File: bench-wide-cycle.sumo, Avg: 5453.4 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: accept-cycle.prom, Avg: 68.0 ms
+Input File: accept-cycle.prom, Avg: 18.4 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: simple-loop.prom, Avg: 72.8 ms
+Input File: bench-deep.sumo, Avg: 7749.0 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bintree-cycle-max.prom, Avg: 880.2 ms
+Input File: bench-wide.sumo, Avg: 13534.8 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bintree-cycle.prom, Avg: 70.2 ms
+Input File: bintree-converge.prom, Avg: 1617.8 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bench-wide-cycle.sumo, Avg: 2667.0 ms
+Input File: bintree-cycle-max.prom, Avg: 783.4 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bintree-loop.prom, Avg: 2425.0 ms
+Input File: bintree-cycle-min.prom, Avg: 984.0 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bintree-cycle-min.prom, Avg: 1427.2 ms
+Input File: bintree-cycle.prom, Avg: 18.6 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bintree-converge.prom, Avg: 1732.2 ms
+Input File: bintree-loop.prom, Avg: 2073.8 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bench-deep.sumo, Avg: 7667.6 ms
+Input File: bintree.prom, Avg: 1456.6 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bench-deep-cycle.sumo, Avg: 6789.6 ms
+Input File: simple-loop.prom, Avg: 17.4 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bench-wide.sumo, Avg: 7689.6 ms
+Input File: bench-deep-cycle.sumo, Avg: 796.6 ms
 ==========================================================
 Algorithm: alg3_optimized, with 16 threads:
-Input File: bintree.prom, Avg: 1649.8 ms
+Input File: bench-wide-cycle.sumo, Avg: 6462.8 ms
 ==========================================================

@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
+import java.util.concurrent.CountDownLatch;
 
 import graph.Graph;
 import graph.GraphFactory;
@@ -16,6 +17,8 @@ public class Worker implements Callable<Void> {
     private final Graph graph;
     private final int threadID;
     private final Colors colors = new Colors();
+
+    public static CountDownLatch endLatch;
 
     private int cntRed  = 0;
     private int cntBlue = 0;
@@ -154,6 +157,8 @@ public class Worker implements Callable<Void> {
 
     private void mc_ndfs(State s) throws CycleFoundException, InterruptedException {
         dfsBlue(s);
+        endLatch.countDown();
+        endLatch.await();
     }
 
 }
