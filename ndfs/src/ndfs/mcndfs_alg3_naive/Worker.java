@@ -21,7 +21,6 @@ public class Worker implements Callable<Void> {
     private int cntBlue = 0;
     private int cntCyan = 0;
     private int cntPink = 0;
-    private boolean allred = true;
 
     // Throwing an exception is a convenient way to cut off the search in case a
     // cycle is found.
@@ -102,7 +101,7 @@ public class Worker implements Callable<Void> {
     private void dfsBlue(State s) throws CycleFoundException, InterruptedException {
 
 
-        allred = true;
+        boolean allred = true;
 
         colors.color(s, Color.CYAN);
         ++cntCyan;
@@ -148,7 +147,8 @@ public class Worker implements Callable<Void> {
 
     private List<State> mcPost(State s){
         List<State> states = graph.post(s);
-        Collections.rotate(states, threadID);
+        //Collections.rotate(states, threadID);
+        Collections.shuffle(states);
         return states;
     }
 

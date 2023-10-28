@@ -60,7 +60,6 @@ public class NNDFS implements NDFS {
             pool.awaitTermination(Long.MAX_VALUE, TimeUnit.SECONDS);
         } catch (InterruptedException e) {
             System.out.println("Interrupted while wating for pool to terminate");
-            // ignore
         }
 
 

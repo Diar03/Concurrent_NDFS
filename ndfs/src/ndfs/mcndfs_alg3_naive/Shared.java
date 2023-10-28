@@ -1,18 +1,17 @@
 package ndfs.mcndfs_alg3_naive;
 
 import java.util.HashMap;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 import graph.State;
 
 public class Shared {
 
-    private static Shared instance;
     private static volatile HashMap<State, Integer> countMap = new HashMap<State, Integer>();
     private static volatile HashMap<State, Boolean> redColor = new HashMap<State, Boolean>();
 
-    private static final ReentrantLock countLock = new ReentrantLock();
-    private static final ReentrantLock redLock = new ReentrantLock();
+    private static final ReentrantReadWriteLock countLock = new ReentrantReadWriteLock();
+    private static final ReentrantReadWriteLock redLock = new ReentrantReadWriteLock();
 
     private static boolean result = false;
 
@@ -20,13 +19,7 @@ public class Shared {
     private Shared() {
         // private constructor to prevent instantiation
     }
-    
-    public static Shared getInstance() {
-        if (instance == null) {
-            instance = new Shared();
-        }
-        return instance;
-    }
+
 
     public static boolean getResult() {
         return result;
@@ -37,60 +30,49 @@ public class Shared {
     }
 
     public static int getCounter(State s) {
-        countLock.lock();
+        countLock.readLock().lock();
         try {
-            if (countMap.containsKey(s)) {
-                return countMap.get(s);
-            } else {
-                System.out.println("Counter not initialized");
-                throw new Error("Counter not initialized");
-            }
+            return countMap.get(s);
         } finally {
-            countLock.unlock();
+            countLock.readLock().unlock();
         }
     }
 
     public static void incrementCounter(State s) {
-        countLock.lock();
+        countLock.writeLock().lock();
         try {
-            if (countMap.containsKey(s)) {
-                countMap.put(s, countMap.get(s) + 1);
-            } else {
-                countMap.put(s, 1);
-            }
+            countMap.putIfAbsent(s, 0);
+            countMap.put(s, countMap.get(s)+1);
         } finally {
-            countLock.unlock();
+            countLock.writeLock().unlock();
         }
     }
 
     public static void decrementCounter(State s){
-        countLock.lock();
+        countLock.writeLock().lock();
         try {
-            if (countMap.containsKey(s)) {
-                countMap.put(s, countMap.get(s) - 1);
-            } else {
-                countMap.put(s, 0);                  // This if condition should not be reached
-            }
+            int val = getCounter(s);
+            countMap.put(s, val-1);
         } finally {
-            countLock.unlock();
+            countLock.writeLock().unlock();
         }
     }
 
     public static void setRed(State s, boolean value) {
-        redLock.lock();
+        redLock.writeLock().lock();
         try {
             redColor.put(s, value);
         } finally {
-            redLock.unlock();
+            redLock.writeLock().unlock();
         }
     }
 
     public static boolean isRed(graph.State t) {
-        redLock.lock();
+        redLock.readLock().lock();
         try {
             return redColor.containsKey(t);
         } finally {
-            redLock.unlock();
+            redLock.readLock().unlock();
         }
     }
 

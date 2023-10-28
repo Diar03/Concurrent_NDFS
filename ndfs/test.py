@@ -5,7 +5,7 @@ import time
 # Define the list of algorithms, threads, and number of runs
 algorithms = ["seq", "alg3_naive", "alg3_optimized"]
 thread_counts = [1, 4, 16]
-num_runs = 3
+num_runs = 5
 
 # Path to the input directory
 input_dir = "input"
@@ -22,8 +22,9 @@ for input_file in os.listdir(input_dir):
     for algorithm in algorithms:
         if algorithm == "seq":
             threads_to_test = [1]  # Sequential algorithm runs with 1 thread
+            continue
         else:
-            threads_to_test = thread_counts
+            threads_to_test = [4, 16]  # All other algorithms run with 4 and 16 threads
         for threads in threads_to_test:
             runtimes = []
             for _ in range(num_runs):
@@ -69,14 +70,15 @@ def display_results_table(results):
     print(tabulate(table, headers, tablefmt="grid"))
 
 # Print the results
-print("Results for NDFS:")
+print("Results for NDFS")
+print(f"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+print(f"==========================================================")
 for algorithm, thread_data in results.items():
-    #print(f"Algorithm: {algorithm}")
     for threads, results_list in thread_data.items():
-        #print(f"Threads: {threads}")
         for result in results_list:
             input_file, avg_runtime, correctness = result
             print(f"Algorithm: {algorithm}, with {threads} threads:")
-            print(f"Input File: {input_file}, Average Runtime: {avg_runtime} seconds, Cycle: {correctness}")
+            print(f"Input File: {input_file}, Avg: {avg_runtime} ms")
+            print(f"==========================================================")
 
             

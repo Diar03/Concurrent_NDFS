@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.Callable;
-
 import java.util.concurrent.atomic.AtomicInteger;
 
 import graph.Graph;
@@ -16,14 +15,13 @@ import graph.State;
 public class Worker implements Callable<Void> {
 
     private final Graph graph;
-    private final int threadID;
+    private int threadID;
     private final Colors colors = new Colors();
 
     private int cntRed  = 0;
     private int cntBlue = 0;
     private int cntCyan = 0;
     private int cntPink = 0;
-    private boolean allred = true;
 
     // Throwing an exception is a convenient way to cut off the search in case a
     // cycle is found.
@@ -95,7 +93,7 @@ public class Worker implements Callable<Void> {
             }
         }
 
-        Shared.hashRed.put(s, true);
+        Shared.hashRed.putIfAbsent(s, true);
         ++cntRed;
 
 
@@ -103,11 +101,10 @@ public class Worker implements Callable<Void> {
 
     private void dfsBlue(State s) throws CycleFoundException, InterruptedException {
 
-        allred = true;
+        boolean allred = true;
 
         colors.color(s, Color.CYAN);
         ++cntCyan;
-        Shared.countMap.putIfAbsent(s, new AtomicInteger(0));
 
         for(State t : mcPost(s)){
 
@@ -133,11 +130,10 @@ public class Worker implements Callable<Void> {
                 throw new InterruptedException();
 
         if(allred){
-            //Shared.setRed(s, true);
-            Shared.hashRed.put(s, true);
-            ++cntRed;
+            Shared.hashRed.putIfAbsent(s, true);
         } else if(s.isAccepting()){
-            Shared.countMap.putIfAbsent(s, new AtomicInteger(0)).incrementAndGet();
+            Shared.countMap.putIfAbsent(s, new AtomicInteger(0));
+            Shared.countMap.get(s).incrementAndGet();
             dfsRed(s);
         }
         if(Thread.interrupted())
@@ -150,7 +146,8 @@ public class Worker implements Callable<Void> {
 
     private List<State> mcPost(State s){
         List<State> states = graph.post(s);
-        Collections.rotate(states, threadID);
+        // Collections.rotate(states, threadID);
+        Collections.shuffle(states);
         return states;
     }
 
